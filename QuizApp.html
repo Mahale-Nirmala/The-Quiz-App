@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="QuizApp.css" />
+
+</head>
+
+<body>
+
+    <main id="main">
+
+        <div id="score_div">
+            <div class="score_class">
+                <p>Score:</p>
+                <p id="score_p"><span id="score">0</span> / 5 </p>
+            </div>
+        </div>
+
+        <h1>The Quiz App</h1>
+        <div id="quiz-section"> <!----------------------- div first for dark blue color -->
+            <form id="quiz-form">
+                <div class="question" id="question-option-div">
+
+                </div>
+
+                <div class="btn-div" id="btn">
+                    <button class="submit-btn" id="submit" type="button" onclick=calculate_score()> Submit </button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <script src="QuizApp.js"></script>
+</body>
+
+</html>
